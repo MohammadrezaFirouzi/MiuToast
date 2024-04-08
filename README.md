@@ -51,22 +51,22 @@ dependencies {
 To display an Info Toast:
 
 ``` java
-       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.INFO_TYPE,true, null).show();
+MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.INFO_TYPE,true, null).show();
 ```
 To display a Warning Toast:
 
 ``` java
-       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.WARNING_TYPE,true, null).show();
+MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.WARNING_TYPE,true, null).show();
 ```
 To display an Error Toast:
 
 ``` java
-       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.ERROR_TYPE,true, null).show();
+MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.ERROR_TYPE,true, null).show();
 ```
 To display a Success Toast:
 
 ``` java
-       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.SUCCESS_TYPE,true, null).show();
+MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.SUCCESS_TYPE,true, null).show();
 ```
 
 <br/>
