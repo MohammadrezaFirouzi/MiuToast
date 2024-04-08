@@ -35,7 +35,7 @@ dependencyResolutionManagement {
 
 ## Dependencies
 
-Add this to your module's `build.gradle` file (make sure the version matches the JitPack badge above):
+Add this to your module's `build.gradle` file 
 
 ```gradle
 dependencies {
