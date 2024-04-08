@@ -51,52 +51,22 @@ dependencies {
 To display an Info Toast:
 
 ``` java
-       CuteToast.ct(this, "This is a Info Toast", CuteToast.LENGTH_SHORT, CuteToast.INFO, true).show();
+       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.INFO_TYPE,true, null).show();
 ```
 To display a Warning Toast:
 
 ``` java
-       CuteToast.ct(this, "This is a Warning Toast", CuteToast.LENGTH_SHORT, CuteToast.WARN, true).show();
+       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.WARNING_TYPE,true, null).show();
 ```
 To display an Error Toast:
 
 ``` java
-       CuteToast.ct(this, "This is a Error Toast", CuteToast.LENGTH_SHORT, CuteToast.ERROR, true).show();
+       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.ERROR_TYPE,true, null).show();
 ```
 To display a Success Toast:
 
 ``` java
-       CuteToast.ct(this, "This is a Success Toast", CuteToast.LENGTH_SHORT, CuteToast.SUCCESS, true).show();
-```
-To display a Happy Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Happy Toast", CuteToast.LENGTH_SHORT, CuteToast.HAPPY, true).show();
-```
-To display a Sad Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Sad Toast", CuteToast.LENGTH_SHORT, CuteToast.SAD, true).show();
-```
-To display a Confuse Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Confuse Toast", CuteToast.LENGTH_SHORT, CuteToast.CONFUSE, true).show();
-```
-To display a Delete Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Delete Toast", CuteToast.LENGTH_SHORT, CuteToast.DELETE, true).show();
-```
-To display a Save Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Save Toast", CuteToast.LENGTH_SHORT, CuteToast.SAVE, true).show();
-```
-To display a Normal Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Normal Toast", CuteToast.LENGTH_SHORT, CuteToast.NORMAL, true).show();
+       MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.SUCCESS_TYPE,true, null).show();
 ```
 
 <br/>
