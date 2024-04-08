@@ -47,7 +47,6 @@ dependencies {
 
 ## Usage
 
-Each of the following method returns a `Toast`. **Don't Forget to Call `.show()`**
 
 To display an Info Toast:
 
