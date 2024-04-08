@@ -75,7 +75,7 @@ MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.S
 ### If you want to use Custom Icons:
 
 ``` java
-        MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.CUSTOM_IMAGE_TYPE,true, R.drawable.images).show();
+MiuToast.miu(MainActivity.this, "متن تست",MiuToast.LENGTH_LONG, MiuToast.CUSTOM_IMAGE_TYPE,true, R.drawable.images).show();
 ```
 
 
