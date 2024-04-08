@@ -20,15 +20,16 @@
 
 ## Prerequisites
 
-Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
+Add it in your root build.gradle at the end of repositories:
 
 ```gradle
-allprojects {
-	repositories {
-		...
-		maven { url "https://jitpack.io" }
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
 	}
-}
 ```
 <br/>
 
@@ -38,22 +39,11 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 
 ```gradle
 dependencies {
-	...
-	implementation 'com.github.ahmmedrejowan.CuteToast:CuteToast:1.2'
+    implementation 'com.github.MohammadrezaFirouzi:MiuToast:Tag'
 }
 ```
 <br/>
 
-If you want to use only **Custom Background Options** (no Pre-build Icons), then:
-
-```gradle
-dependencies {
-	...
-	implementation 'com.github.ahmmedrejowan.CuteToast:CuteToast-Custom:1.2'
-
-}
-```
-<br/>
 
 ## Usage
 
