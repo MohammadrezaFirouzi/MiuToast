@@ -39,7 +39,7 @@ Add this to your module's `build.gradle` file
 
 ```gradle
 dependencies {
-    implementation 'com.github.MohammadrezaFirouzi:MiuToast:1.0.0'
+    implementation 'com.github.MohammadrezaFirouzi:MiuToast:1.4'
 }
 ```
 <br/>
